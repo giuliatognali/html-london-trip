@@ -7,92 +7,102 @@
     <title>London Trip</title>
 </head>
 <body>
-    <h1>Il mio Viaggio a Londra</h1> <!--Titolo-->
-    <!-- contentirore immagini -->
-    <div> 
-        <img src="img/pexels-bill-emrich-230794-0.jpg" alt="London Eye">
-        <img src="img/pexels-bill-emrich-230794-1.jpg" alt="Tamigi">
-        <img src="img/pexels-bill-emrich-230794-2.jpg" alt="Parlamento">
-    </div>
-    <hr>
-    <!-- le mie spese -->
-    <div>
-        <h2>Le mie spese</h2>
-        <table>
-            <thead> <!-- intestazione tabella -->
-                <tr>
-                    <th>Numero</th>
-                    <th>Descrizione</th>
-                    <th>Costo</th>
-                </tr>
-            </thead>
-            <tbody> <!-- contentuto tabella -->
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120€</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120€</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120€</td>
-                </tr>
-            <tfoot> <!-- chiusura tabella -->
-                <tr>
-                    <td colspan="2"></tdcolspan>Totale</td>
-                    <td> 360€</td>
-                </tr>
-            </tfoot>
-            </tbody>
-        </table>
-    </div>
-    <!-- fine le mie spese -->
-    <hr>
-    <!-- cose da fare -->
-    <div>
-        <h3>Cose da fare</h3>
-        <ul>
-            <li>Visitare la Tower of London &#10007;</li>
-            <li>Visitare Greenwich &#10003;</li>
-            <li>Ascoltare un artista di strada a Covent Garden &#10003;</li>
-            <li>Mangiare il tipico Fish and Chips inglese &#10007;</li>
-        </ul>
-    </div>
-    <!-- fine cose da fare -->
-    <hr>
-    <!-- info utili -->
-    <div>
-        <h3>Info utili:</h3>
-        <ol>
-            <li>Numeri utili di emergenza</li>
+     <!-- inizio header - contentirore immagini -->
+    <header>
+        <h1>Il mio Viaggio a Londra</h1> <!--Titolo-->
+        <div>
+            <img src="img/pexels-bill-emrich-230794-0.jpg" alt="London Eye">
+            <img src="img/pexels-bill-emrich-230794-1.jpg" alt="Tamigi">
+            <img src="img/pexels-bill-emrich-230794-2.jpg" alt="Parlamento">
+        </div>
+        <hr>
+    </header>
+    <!-- fine header - contentirore immagini -->
+    <!-- inizio main -->
+    <main>
+        <!-- le mie spese -->
+        <section>
+            <h2>Le mie spese</h2>
+            <table>
+                <thead> <!-- intestazione tabella -->
+                    <tr>
+                        <th>Numero</th>
+                        <th>Descrizione</th>
+                        <th>Costo</th>
+                    </tr>
+                </thead>
+                <tbody> <!-- contentuto tabella -->
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120€</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120€</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120€</td>
+                    </tr>
+                </tbody>
+                <tfoot> <!-- chiusura tabella -->
+                    <tr>
+                        <td colspan="2">Totale</td>
+                        <td> 360€</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <hr>
+        </section>
+        <!-- fine le mie spese -->
+        <!-- inizio cose da fare -->
+        <section>
+            <h3>Cose da fare</h3>
             <ul>
-                <li> <strong>999</strong> - Emergenza</li>
-                <li><strong>101</strong> - Numero polizia</li>
-                <li><strong>111</strong> - Numero assistenza medica</li>
+                <li>Visitare la Tower of London &cross;;</li>
+                <li>Visitare Greenwich &check;;</li>
+                <li>Ascoltare un artista di strada a Covent Garden &check;</li>
+                <li>Mangiare il tipico Fish and Chips inglese &cross;</li>
             </ul>
-        </ol>
-        <ol>
-            <li>Hotel</li>
-            <ul>
-                <li> <strong>Nome hotel:</strong> Buckingham Palace</li>
-                <li><strong>Indirizzo hotel:</strong> Westminister, London SW1A1AA, Regno Unito</li>
-            </ul>
-        </ol>
-        <ol>
-            <li>Aereo</li>
-            <ul>
-                <li> <strong>Volo di Andata:</strong> Y1234X, ore 9.30 da Milano Malpensa</li>
-                <li><strong>Volo di Ritorno</strong> Y1236X, ore 18.30 da London Heathrow</li>
-            </ul>
-        </ol>
-    </div>
+            <hr>
+        </section>
+        <!-- fine cose da fare -->
+        <!-- inizio info utili -->
+        <section>
+            <h3>Info utili:</h3>
+            <ol>
+                <li>
+                    Numeri utili di emergenza
+                    <ul>
+                        <li> <strong>999</strong> - Emergenza</li>
+                        <li><strong>101</strong> - Numero polizia</li>
+                        <li><strong>111</strong> - Numero assistenza medica</li>
+                    </ul>
+                </li>
+                <li>
+                    Hotel
+                    <ul>
+                        <li> <strong>Nome hotel:</strong> Buckingham Palace</li>
+                        <li><strong>Indirizzo hotel:</strong> Westminister, London SW1A1AA, Regno Unito</li>
+                    </ul>
+                </li>
+                <li>
+                    Aereo
+                    <ul>
+                        <li> <strong>Volo di Andata:</strong> Y1234X, ore 9.30 da Milano Malpensa</li>
+                        <li><strong>Volo di Ritorno</strong> Y1236X, ore 18.30 da London Heathrow</li>
+                    </ul>
+                </li>
+            </ol>
+    </section>
     <!-- fine info utili -->
     <hr>
+    </main>
+    <!-- fine main -->
+
     <!-- foto -->
     <div>
         <h3>Le foto</h3>
